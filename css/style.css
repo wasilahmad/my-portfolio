@@ -30,7 +30,7 @@ body {
 .left-panel {    
     background-color: #fbeee8;
     color: #dd8256;
-    background-image: url('/images/workspace.jpg');
+    background-image: url('../images/workspace.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left top;
