@@ -347,20 +347,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="./js/jquery.countup.min.js"></script>
     <script src="./js/typed.min.js"></script>
+    <script src="./js/main.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-46PVPTFQJT"></script>
     <script>
-        // countUp Initiate
-        $('.count-up').countUp();
-        // Typed Initiate
-        if ($('.typed-text-output').length == 1) {
-            var typed_strings = $('.typed-text').text();
-            var typed = new Typed('.typed-text-output', {
-                strings: typed_strings.split(', '),
-                typeSpeed: 100,
-                backSpeed: 20,
-                smartBackspace: false,
-                loop: true
-            });
-        }
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-46PVPTFQJT');
     </script>
   </body>
 </html>
